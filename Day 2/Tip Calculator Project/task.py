@@ -2,7 +2,7 @@
 print("Welcome to the tip calculator!")
 bill = float(input("What was the total bill?\n$"))
 # Do not put "%" in input
-tip = int(input("What percentage tip would you like to give? 10%, 12%, 15%, etc.\n"))
+tip = int(input("What percentage tip would you like to give? 10%, 12%, 15%, etc. Please do not include the % symbol.\n"))
 people = int(input("How many people to split the bill?\n"))
 
 # Portion is the bill plus the tip (divided by the total bill) then divide by the number of people.
