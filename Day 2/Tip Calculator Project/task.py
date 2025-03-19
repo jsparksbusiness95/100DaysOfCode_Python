@@ -5,7 +5,7 @@ bill = float(input("What was the total bill?\n$"))
 tip = int(input("What percentage tip would you like to give? 10%, 12%, 15%, etc. Please do not include the % symbol.\n"))
 people = int(input("How many people to split the bill?\n"))
 
-# My logic. Tip is calculated to a percentage as a float, final bill is bill + tip of bill rounded to 2nd decimal, then divided by people.
+# My logic. Tip is calculated to a percentage as a float.
 tip_percent = round(tip / 100, 2)
 finalBill = ((round(bill * tip_percent + bill,2)) / people)
 
