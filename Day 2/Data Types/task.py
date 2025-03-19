@@ -1,1 +1,1 @@
-len("Hello")
+len("Hello"[4])
