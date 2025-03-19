@@ -8,4 +8,4 @@ people = int(input("How many people to split the bill?\n"))
 # Portion is the bill plus the tip (divided by the total bill) then divide by the number of people.
 portion = ((bill + (bill / tip)) / people)
 # f-string to print the portion variable, rounded to the second decimal.
-print(f"Everyone needs to pay ${round(portion, 2)}.")
+print(f"Everyone needs to pay: ${round(portion, 2)}.")
