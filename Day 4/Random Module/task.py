@@ -12,5 +12,5 @@ print("\n" + my_module.quote_FotNS)
 coinToss = random.randint(0,1)
 if coinToss == 0:
     print("It landed on heads.")
-elif coinToss == 1:
+else:
     print("It landed on tails.")
