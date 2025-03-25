@@ -1,0 +1,1 @@
+quote_FotNS = "Nani omae wa mou shindeiru!"
