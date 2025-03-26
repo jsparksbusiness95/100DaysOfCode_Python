@@ -6,4 +6,10 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma",
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
-print(states_of_america)
+print(len(states_of_america)) # Get list length
+# print(states_of_america[50]) - Attempt to get Hawaii, bad arg; IndexError
+print(states_of_america[49]) # Will correctly pull Hawaii from list
+
+fruits = ["Cherry", "Apple", "Pear"]
+veg = ["Cucumber", "Kale", "Spinnach"]
+fruits_and_veg = [fruits, veg] # Nested list, will pull both lists when printed
