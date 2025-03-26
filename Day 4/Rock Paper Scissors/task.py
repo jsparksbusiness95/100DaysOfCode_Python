@@ -27,10 +27,10 @@ scissors = '''
 '''
 random_select = [rock, paper, scissors]
 player_choice = input("Let's play a game of rock, paper, scissors! You go first.\n")
+player_choice = player_choice.lower()
 ai_choice = random.choice(random_select)
 
 # Game Logic:
-
 # A: Rock as choice:
 if player_choice == "rock":
     if ai_choice == paper:
